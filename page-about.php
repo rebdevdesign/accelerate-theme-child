@@ -42,10 +42,10 @@ get_header(); ?>
 					<h6><?php the_content(); ?></h6>
 					<p><?php echo $description; ?></p>
 				</aside>
-	
+		</article>
 			<?php endwhile; //end of the loop ?>
 			<?php wp_reset_query(); //resets the altered query back to the original ?>
-    </article>
+    
 </section>
 
 <section>
