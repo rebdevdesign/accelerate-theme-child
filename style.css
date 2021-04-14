@@ -1,0 +1,305 @@
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://example.com/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	Hauwa Abashiya
+Author URI:   http://example.com
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+/* header */
+#masthead {
+  background: none repeat scroll 0 0 #45ac9d;
+}
+h1.site-title {
+  float: left;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: -13px;
+}
+#masthead nav ul li {
+  float: left;
+  margin: 0 10px;
+}
+#primary-navigation .nav-menu ul {
+  list-style-type: none;
+  margin: 0;
+}
+#primary-navigation .nav-menu li a {
+  margin: 0 1em;
+  padding: .25em 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+.page-header.clearfix {
+  max-height: 33px;
+}
+.home-page {
+  background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
+.button {
+	background: none repeat scroll 0 0 #45ac9d;
+}
+/* featured work on homepage */
+.featured-work .site-content {
+  margin: 6em auto;
+}
+.featured-work h4 {
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2.25em;
+}
+.homepage-featured-work {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+.individual-featured-work {
+  margin-bottom: 2em;
+}
+.individual-featured-work a {
+  display: block;
+}
+.individual-featured-work h3 {
+  font: 500 1em/1.75 'Open Sans', Arial, sans-serif;
+}
+/*End Featured Work on Homepage*/
+
+/* Blog Post on Homepage */
+.blog-post {
+  width: 50%;
+  float: left;
+  margin-bottom: 2em;
+}
+.blog-post h4 {
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #a6a6a6;
+  text-transform: uppercase;
+  margin: 2em 0 .5em;
+}
+.blog-post h3 {
+  font-size: 1.5em;
+}
+.read-more-link {
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #45ac9d;
+  text-transform: uppercase;
+}
+/*End Blog Post on Homepage*/
+/*Archive Page - Blog Styles*/
+
+/*End Archive Page - Blog Styles*/
+/*Case Studies*/
+.case-study {
+  clear: both;
+}
+.case-study h2 {
+  font: 700 1.5em/1.5 'Open Sans Semibold';
+}
+.case-study h4 {
+  font: 400 .875em/1.25 'Open Sans';
+  margin: 1em 0;
+}
+.case-study h4 span {
+  color: #878787;
+}
+.case-study-sidebar p {
+  margin: 2em 0;
+}
+div.case-study-images {
+  margin-top: 3em;
+}
+div.case-study-images img {
+  width: 100%;
+  margin-bottom: 3.125em;
+  border: 1px solid #ddd;
+}
+/*END Case Studies*/
+/*Contact Us Page*/
+.nf-field-label label {
+  font-weight: 400!important;
+  font-size: 14px!important;
+}
+input#nf-field-4.ninja-forms-field.nf-element {
+  background-color: #45ab9d;
+  float: right;
+  }
+.page-id-47360 .site-content {
+  max-width: 648px!important;
+}
+input#nf-field-1.ninja-forms-field.nf-element {
+  padding-right: 5.655em!important;
+  line-height: 0!important;
+}
+input#nf-field-2.ninja-forms-field.nf-element {
+  padding-right: 5.655em!important;
+  line-height: 0!important;
+}
+input#nf-field-3.ninja-forms-field.nf-element {
+  padding-right: 5.655em!important;
+  line-height: 0!important;
+}
+/*END Contact Us Page*/
+/*About Us Archive Page*/
+h3.about-header {
+  font-weight: 600;
+  padding: 1% 28%;
+  font-size: 25px;
+  color:#fff;
+}
+h4.services-header {
+  text-align: center;
+  font-size: 16px;
+}
+p.services-tagline {
+  text-align: center;
+  padding: 1% 37%;
+  font-size: 16px;
+}
+.our-services {
+  clear: both;
+}
+.services-header h3 {
+  font: 700 1.5em/1.5 'Open Sans Semibold';
+}
+.about-sidebar h6 {
+  font-weight: 500;
+}
+.about-sidebar p {
+  margin: 2em 0;
+}
+
+.our-services-images {
+  float: left;
+  margin: 3em;
+  display: flex;
+  align-items: center;
+ }
+div.our-services-images img {
+  width: 100%;
+  margin-bottom: 3.125em;
+  border: 1px solid #ddd;
+}
+.individual-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  width: 80%;
+  margin-left: 8em;
+}
+.individual-service:nth-child(even) {
+  flex-direction: row-reverse;
+}
+/*.individual-service {
+  margin: 2em 0;
+  display: flex;
+ }*/
+.interested {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.line {
+  width: 100%;
+  border-top: : 1px solid #bfbfbf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#interested {
+  vertical-align: top;
+  margin: 1em 2em;
+}
+#interested-button {
+  margin: 3em 2em;
+  vertical-align: bottom;
+}
+.intersted .button {
+  padding: 1.5em 3.75em;
+}
+/*END About Us Archive Page*/
+/*Footer*/
+.social-media-navigation li {
+  list-style: none!important;
+  display: inline-block;
+  margin: 2.5px;
+  float: right;
+}
+.fab.fa-twitter, .fab.fa-facebook-f, .fab.fa-linkedin-in {
+  border-radius: 50%;
+  background-color: #3b3b3b;
+  color: #fff;
+  height: 25px;
+  width: 25px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.page-item-6, .page-item-47347, .page-item-5, .page-item-47360, .page-item-47379 {
+  display: none!important;
+}
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  position: absolute !important;
+  left: -999em;
+  color: #444;
+  border: 0;
+  height: 1px;
+  /*margin: -1px;*/
+  overflow: hidden;
+  padding: 0;
+  width: 1px;
+  word-wrap: normal !important;
+  display: block;
+  font-size: 1em;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  /*top: 5px;*/
+  z-index: 100000; /* Above WP toolbar. */
+}
+/*End Footer Menu*/
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .blog .site-content {
+       display: flex;
+       flex-flow: row nowrap;
+       justify-content: space-between;
+    }
+    .featured-work .site-content {
+       margin: auto auto 3em;
+    }
+    .individual-featured-work {
+       float: left;
+       width: 33%;
+       padding: 0 .5em;
+    }
+    .blog-post {
+       width: 50%;
+       float: left;
+       margin-bottom: 2em;
+    }
+    aside.case-study-sidebar {
+       float: left;
+       width: 34%;
+       margin: 0 6% 0 0;
+    }
+    div.case-study-images {
+       float: right;
+       width: 60%;
+    }
+    .site-description {
+       clear:both;
+    }
+}
